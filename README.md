@@ -49,3 +49,4 @@ It supports adding, editing, deleting, marking tasks done/undone, and persists d
     Uses a single localStorage key: todo.items.v1
     No backend required
     Styling with Tailwind CSS
+![TODOApp](https://github.com/user-attachments/assets/3a406b56-15f9-49af-a9ce-0213a33dbece)
