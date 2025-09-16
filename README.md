@@ -1,12 +1,51 @@
-# React + Vite
+# React To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple offline to-do app built with **React, JavaScript, and Tailwind CSS**.  
+It supports adding, editing, deleting, marking tasks done/undone, and persists data in **localStorage**.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+##  Features
+    - Add tasks with title (required) and description (optional)
+    - Edit tasks
+    - Mark as done/undone
+    - Delete tasks
+    - Persist in `localStorage`
+    - Accessible and responsive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+###  Project Structure
+    src/
+    ├── components/
+    │ ├── Sidebar.jsx
+    │ ├── TaskList.jsx
+    │ ├── TaskDetails.jsx
+    │ └── TaskForm.jsx
+    ├── tests/
+    │ └── App.test.jsx
+    ├── App.jsx
+    ├── main.jsx
+    └── index.css
+
+---
+
+####  Installation
+
+    1. Clone this repository:
+       git clone https://github.com/your-username/todo-app.git
+       cd todo-app
+    2. Install dependencies:
+       npm install
+    3.Start the development server:
+        npm run dev
+    4. Running Tests
+        This project uses Jest and React Testing Library.
+        Run tests with:
+        npm test
+   
+##### Notes
+    Uses a single localStorage key: todo.items.v1
+    No backend required
+    Styling with Tailwind CSS
