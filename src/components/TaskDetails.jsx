@@ -57,7 +57,7 @@ export default function TaskDetails({ task, onSave, onDelete }) {
         </div>
       )}
 
-      <div className="mt-auto flex items-center justify-between">
+      <div className="mt-4 flex items-center justify-between border-t pt-3">
         <button onClick={handleDelete} className="text-sm text-red-500">
           Delete
         </button>
